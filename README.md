@@ -2,7 +2,7 @@
 Introduction
 ============
 
-This library is compatible with standard Character LCDs such as:
+This library is compatible with standard Character LCDs that use the HD44780 protocol such as:
 * [Adafruit Standard LCD 16x2](https://www.adafruit.com/product/181)
 * [Adafruit RGB backlight negative LCD 16x2](https://www.adafruit.com/product/399)
 * [Adafruit RGB backlight negative LCD 20x4](https://www.adafruit.com/product/498)
@@ -19,6 +19,8 @@ This driver depends on:
 Please ensure all dependencies are available on the CircuitPython filesystem.
 This is easily achieved by downloading
 [the Adafruit library and driver bundle.](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
+
+HD44780
 
 Usage Example
 =============
